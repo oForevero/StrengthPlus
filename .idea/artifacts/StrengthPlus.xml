@@ -1,0 +1,9 @@
+<component name="ArtifactManager">
+  <artifact type="jar" name="StrengthPlus">
+    <output-path>$PROJECT_DIR$/../../mcTestServer/paperSpigot/1.18.2/plugins</output-path>
+    <root id="archive" name="StrengthPlus.jar">
+      <element id="module-output" name="StrengthPlus" />
+      <element id="file-copy" path="$PROJECT_DIR$/src/main/resources/plugin.yml" />
+    </root>
+  </artifact>
+</component>
