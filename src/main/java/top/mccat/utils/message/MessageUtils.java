@@ -1,16 +1,17 @@
-package top.mccat.utils;
+package top.mccat.utils.message;
 
-import org.apache.commons.lang.StringUtils;
 import org.bukkit.Bukkit;
 import org.bukkit.command.ConsoleCommandSender;
 import org.bukkit.entity.Player;
 import top.mccat.constants.StrengthPlusValue;
+import top.mccat.utils.BaseUtils;
+import top.mccat.utils.checker.StringUtils;
 
 /**
  * @author Raven
  * @date 2023/02/16 20:34
  */
-public class MessageUtils extends BaseUtils{
+public class MessageUtils extends BaseUtils {
     private String title;
     private final ConsoleCommandSender commandSender;
 

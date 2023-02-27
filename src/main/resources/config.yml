@@ -1,0 +1,15 @@
+StrengthPlus:
+  #插件名
+  pluginName: '&e[&b&lStrengthPlus&e]'
+  #debug模式
+  debug: true
+  #子功能
+  modelEnable:
+    #是否允许强化菜单
+    menu: true
+    #额外强化属性
+    strengthExtra: false
+    #挂载eco经济插件
+    eco: false
+    #挂载papi变量
+    papi: false

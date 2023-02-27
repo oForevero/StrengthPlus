@@ -1,5 +1,7 @@
 package top.mccat.utils;
 
+import top.mccat.utils.message.ColorParseUtils;
+
 /**
  * @author Raven
  * @date 2023/02/16 20:35
