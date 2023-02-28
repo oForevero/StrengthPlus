@@ -3,7 +3,6 @@ package top.mccat;
 import org.bukkit.configuration.InvalidConfigurationException;
 import org.bukkit.plugin.java.JavaPlugin;
 import top.mccat.command.ChatWindow;
-import top.mccat.utils.ColorParseUtils;
 import top.mccat.domain.Config;
 import top.mccat.utils.SpLogger;
 import top.mccat.utils.io.YamlLoadUtils;
