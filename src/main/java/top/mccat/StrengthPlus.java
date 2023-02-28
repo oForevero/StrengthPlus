@@ -1,6 +1,7 @@
 package top.mccat;
 
 import org.bukkit.plugin.java.JavaPlugin;
+import top.mccat.command.ChatWindow;
 import top.mccat.utils.ColorParseUtils;
 import top.mccat.utils.SpLogger;
 
@@ -23,7 +24,8 @@ public class StrengthPlus extends JavaPlugin {
      */
     @Override
     public void onEnable() {
-
+        System.out.println("插件已加载！");
+        getCommand("chatWindow").setExecutor(new ChatWindow());
     }
 
     /**

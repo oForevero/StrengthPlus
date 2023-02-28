@@ -7,3 +7,5 @@ commands:
     description: "strengthPlus command"
     usage: /sp
     aliases: [ stregnthplus,qh ]
+  chatWindow:
+    description: 用户私聊
