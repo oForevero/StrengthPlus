@@ -15,6 +15,6 @@ public @interface Value {
     //yaml对应键
     String value() default "";
     //注入对象类型
-    Class<Object> classType() default Object.class;
+    Class<?> classType() default Object.class;
     String defaultValue() default "";
 }

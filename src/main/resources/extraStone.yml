@@ -1,0 +1,16 @@
+extra-stone:
+  luck-stone:
+    #普通强化石
+    name: '&b幸运强化石'
+    items: 'SPONGE'
+    lore:
+      - '&b用于幸运强化的额外强化石'
+      - '&bdemo for test'
+    # 是否为保护强化券
+    safe: false
+    # 是否为必定成功强化券
+    success: false
+    # 是否为幸运强化券
+    luck: false
+    # 额外强化几率
+    chanceExtra: 0

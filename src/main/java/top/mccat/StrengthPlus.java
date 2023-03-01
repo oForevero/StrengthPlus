@@ -1,13 +1,16 @@
 package top.mccat;
 
+import org.bukkit.Bukkit;
 import org.bukkit.configuration.InvalidConfigurationException;
 import org.bukkit.plugin.java.JavaPlugin;
 import top.mccat.domain.Config;
+import top.mccat.handler.CommandHandler;
 import top.mccat.utils.SpLogger;
 import top.mccat.utils.io.YamlLoadUtils;
 
 import java.io.IOException;
 import java.lang.reflect.InvocationTargetException;
+import java.util.Objects;
 import java.util.Optional;
 
 /**
@@ -36,7 +39,8 @@ public class StrengthPlus extends JavaPlugin {
      */
     @Override
     public void onEnable() {
-
+        //设置监听
+        Objects.requireNonNull(Bukkit.getPluginCommand("/sp")).setExecutor(new CommandHandler());
     }
 
     /**

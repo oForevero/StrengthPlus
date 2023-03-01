@@ -1,0 +1,10 @@
+strengthStone:
+  normal-stone:
+    #普通强化石
+    name: '&b普通强化石'
+    item: 'SPONGE'
+    lore:
+      - '&b仅用于普通强化的强化石'
+      - '&bdemo for test'
+    # 强化几率
+    chanceExtra: 0
